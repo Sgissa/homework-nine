@@ -1,0 +1,78 @@
+.atmos-content{
+    min-height: 1000px;
+    // background-color: aquamarine;
+
+    .header-container {
+        // background-color: aqua;
+        height: 70px;
+        max-width: 1280px;
+        margin: 0 auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        .header-text{
+            font-family: BF;
+            font-size: 80px;
+            color: black;
+            // padding-left: 300px;
+        }
+    }
+
+    .name {
+        height: 70px;
+        width: 1100px;
+        margin: 0 auto;
+        margin-top: 100px;
+        // background-color: beige;
+    }
+
+    
+    .subtitle {
+        font-family: bf;
+        font-size: 80px;
+        color: black;
+        padding-left: 300px;
+        margin: 0 auto;
+    }
+
+    .content-container {
+        height: 500px;
+        width: 1100px;
+        // background-color: aqua  ;
+        margin: 0 auto;
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+
+
+        .left {
+            width: 720px;
+            height: 500px;
+            // background-color: beige
+            overflow: hidden;
+        }
+
+        .left-text{
+            width: 720px;
+            height: 500px;
+            font-family: bf;
+            font-size: 25px;
+            margin-top: 50px;
+        }
+
+        
+    
+        img {
+            width: 100%;
+        }
+    
+        .right {
+            width: 300px;
+            height: 500px;
+            // background-color: blueviolet;
+            font-family: bf;
+            font-size: 25px;
+            margin-top: 50px;
+        }
+    }
+
+}
